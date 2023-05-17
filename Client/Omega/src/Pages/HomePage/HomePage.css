@@ -1,0 +1,32 @@
+
+
+#homepage-container{
+    width: 100vw;
+    height: 90.55vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* background: rebeccapurple; */
+
+}
+
+
+#slider-container{
+    margin-top: 2rem;
+    width: 60%;
+    height: 40%;
+    /* border: 3px solid white; */
+  }
+  
+
+ 
+#slider-container .slick-prev {
+    margin-left: 2rem;
+    z-index: 2;
+}
+
+#slider-container .slick-next{
+    margin-right: 2rem;
+}
