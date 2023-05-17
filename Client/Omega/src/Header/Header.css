@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+
+#header-container{
+    width: 100vw;
+    overflow: hidden;
+}
+#header-items{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#FBFCFA;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 1rem;
+}
+
+#header-menu{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 3rem;
+  
+}
+
+.menu-item{
+    box-sizing: border-box;
+    color: aliceblue;
+    margin-top: 0.4rem;
+    box-sizing: border-box;
+    padding: 0.3rem;
+    transform: skew(-20deg);
+}
+
+#header-orange-container{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    transform: skew(20deg);
+    background: #F68622;
+    margin-bottom: 0.4rem;
+    margin-right: -1rem;
+}
+
+
+
+.header-logo-link{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+
+.header-logo{
+    width: auto;
+    height: 50%;
+}
+
+#login-container{
+    background: #f1c095;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0.2rem;
+    font-size: 12px;
+
+}
+
+
+#login-link{
+ margin: 0 2.8rem;   
+}
+
+#outlet{
+    height: 100vh;
+    background: #FAF9F6;
+}
