@@ -28,11 +28,13 @@ export default function Carousel() {
     <Slider {...settings}>
       {images.map((image, index) => (
         <div key={index}>
+         
           <img
             src={image}
             alt={`Image ${index + 1}`}
-            style={{ width: "100%", height: "35vh" }}
-          />
+            style={{ width: "100%", height: "85vh"}}
+            />
+     
         </div>
       ))}
     </Slider>
