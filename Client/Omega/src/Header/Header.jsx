@@ -17,13 +17,13 @@ export default function Header(){
             <NavLink className='menu-item'>الرئيسية</NavLink>
             <NavLink className='menu-item'>دوراتنا</NavLink>
             <NavLink className='menu-item'>الطاقم الأكاديمي</NavLink>
-            <NavLink className='menu-item'>مقالات</NavLink>
             <NavLink className='menu-item'>اتصل بنا</NavLink>
         </ul>
         </div>       
     </div>
     
     <div id='login-container'>
+            <NavLink id='login-link'>تسجيل دخول <FontAwesomeIcon icon={faUser} beat size='xs' /></NavLink>
             <NavLink id='login-link'>تسجيل دخول <FontAwesomeIcon icon={faUser} beat size='xs' /></NavLink>
     </div>
     <div id='outlet'>
